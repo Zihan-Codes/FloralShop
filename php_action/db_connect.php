@@ -2,7 +2,7 @@
 
 $localhost = "localhost";
 $username = "root";
-$password = "";
+$password = "Zihan123";
 $dbname = "mayurik_pharmacy";
 $store_url = "http://localhost/dawapharma/";
 // db connection

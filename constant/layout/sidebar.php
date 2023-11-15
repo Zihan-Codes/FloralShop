@@ -38,12 +38,12 @@
                         </li>
                     <?php }?>
                     <?php if(isset($_SESSION['userId']) && $_SESSION['userId']==1) { ?>
-                        <li> <a class="has-arrow" href="#" aria-expanded="false"><i class="fa fa-medkit"></i><span class="hide-menu">Medicine</span></a>
+                        <li> <a class="has-arrow" href="#" aria-expanded="false"><i class="fa fa-medkit"></i><span class="hide-menu">Flowers</span></a>
                             <ul aria-expanded="false" class="collapse">
                            
-                                <li><a href="add-product.php">Add Medicine</a></li>
+                                <li><a href="add-product.php">Add Flowers</a></li>
                            
-                                <li><a href="product.php">Manage Medicine</a></li>
+                                <li><a href="product.php">Manage Flowers</a></li>
                             </ul>
                         </li>
                     <?php }?>
