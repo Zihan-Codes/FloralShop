@@ -13,11 +13,11 @@ $result = $connect->query($sql);
             
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
-                    <h3 class="text-primary"> View Medicine</h3> </div>
+                    <h3 class="text-primary"> View Flower</h3> </div>
                 <div class="col-md-7 align-self-center">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                        <li class="breadcrumb-item active">View Medicine</li>
+                        <li class="breadcrumb-item active">View Flower</li>
                     </ol>
                 </div>
             </div>
@@ -31,7 +31,7 @@ $result = $connect->query($sql);
                  <div class="card">
                             <div class="card-body">
                               
-                            <a href="add-product.php"><button class="btn btn-primary">Add Medicine</button></a>
+                            <a href="add-product.php"><button class="btn btn-primary">Add Flower</button></a>
                          
                                 <div class="table-responsive m-t-40">
                                     <table id="myTable" class="table table-bordered table-striped">
@@ -40,7 +40,7 @@ $result = $connect->query($sql);
                                               <th class="text-center">#</th>
                                                 <th style="width:10%;">Photo</th>
 
-                            <th>Medicine Name</th>
+                            <th>Flower Name</th>
                             <th>Rate</th>                           
                             <th>Quantity</th>
                             <th>Manufacturer</th>

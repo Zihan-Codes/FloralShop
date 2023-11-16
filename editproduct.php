@@ -101,14 +101,7 @@ $sql="SELECT * from product where  product_id='".$_GET['id']."'";
                                                 <label class="control-label">Rate</label>
                                                    <input type="text" class="form-control" id="editRate" value="<?php echo $result['rate']?>" name="editRate" autocomplete="off">
                                         </div>
-                                        <div class="form-group col-md-6">
-                                                <label class="control-label">MRP</label>
-                                                   <input type="text" class="form-control" id="mrp" placeholder="MRP" name="mrp" autocomplete="off" value="<?php echo $result['mrp']?>" required="" pattern="^[0-9]+$"/>
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                                <label class="control-label">Batch No</label>
-                                                   <input type="text" class="form-control" id="Batch No" placeholder="Batch No" name="bno" autocomplete="off" value="<?php echo $result['bno']?>" required="" pattern="^[Aa-Zz]+$"/>
-                                        </div>
+                                        
                                         <div class="form-group col-md-6">
                                                 <label class="control-label">Expiry Date</label>
                                                    <input type="date" class="form-control" id="expdate" placeholder="Expiry Date" name="expdate" value="<?php echo $result['expdate']?>" autocomplete="off" required="" pattern="^[0-9]+$"/>

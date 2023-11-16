@@ -13,8 +13,8 @@ if($_POST) {
   $rate 			= $_POST['rate'];
   $brandName 		= $_POST['brandName'];
   $categoryName 	= $_POST['categoryName'];
-  $mrp 	= $_POST['mrp'];
-  $bno 	= $_POST['bno'];
+  // $mrp 	= $_POST['mrp'];
+  // $bno 	= $_POST['bno'];
   $expdate 	= $_POST['expdate'];
   $productStatus 	= $_POST['productStatus'];
 	//$type = explode('.', $_FILES['productImage']['name']);

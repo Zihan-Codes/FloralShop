@@ -102,13 +102,13 @@ if($_GET['o'] == 'add') {
         </div> 
         <div class="form-group col-md-12">
            <label class="control-label">Client Contact</label>
-            <input type="text" class="form-control" id="clientContact" name="clientContact" placeholder="Contact Number" autocomplete="off" value="<?php echo $data[3] ?>" pattern="^[0][1-9]\d{9}$|^[1-9]\d{9}$"/>
+            <input type="text" class="form-control" id="clientContact" name="clientContact" placeholder="Contact Number" autocomplete="off" value="<?php echo $data[3] ?>" pattern="^[0-9]+$"/>
       </div>       
 
         <table class="table" id="productTable">
           <thead>
             <tr>              
-              <th style="width:40%;">Medicine</th>
+              <th style="width:40%;">Flower</th>
               <th style="width:20%;">Rate</th>
               <th style="width:15%;">Available Quantity</th>              
               <th style="width:15%;">Quantity</th>              
@@ -281,10 +281,10 @@ if($_GET['o'] == 'add') {
                 <option value="">~~SELECT~~</option>
                 <option value="1" <?php if($data[13] == 1) {
                   echo "selected";
-                } ?>  >In India</option>
+                } ?>  >In Colombo</option>
                 <option value="2" <?php if($data[13] == 2) {
                   echo "selected";
-                } ?> >Out Of India</option>
+                } ?> >Out Of Colombo</option>
               </select>
           </div>                
         

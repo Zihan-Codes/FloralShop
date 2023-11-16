@@ -173,7 +173,7 @@ foreach ($result1 as $row1) {?>
 				</tr>
 
 				<tr class="heading">
-					<td>Medicine Name</td>
+					<td>Flower Name</td>
 					<td>Batch</td>
 					<td>Exp</td>
 					<td>Qty</td>
@@ -210,7 +210,7 @@ foreach ($result2 as $row2) { //print_r($row2);exit; ?>
 				</tr>
 				<tr>
 					<td rowspan="3" colspan="3" style="border: 1px solid #555">A/C NO:88252565985645 <br>IFSC:MAHB7867
-						<br>Bank Name: Bank Of Maharashtra</td>
+						<br>Bank Name: Bank Of Ceylon</td>
 					<td colspan="3"  style="border: 1px solid;text-align: left;">TOTAL DISCOUNT</td>
 					<?php
 

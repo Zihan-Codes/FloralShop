@@ -9,11 +9,11 @@
             
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
-                    <h3 class="text-primary">Add Medicine</h3> </div>
+                    <h3 class="text-primary">Add Flower</h3> </div>
                 <div class="col-md-7 align-self-center">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                        <li class="breadcrumb-item active">Add Medicine</li>
+                        <li class="breadcrumb-item active">Add Flower</li>
                     </ol>
                 </div>
             </div>
@@ -38,15 +38,15 @@
                                    <input type="hidden" name="currnt_date" class="form-control">
 
                                         <div class="form-group col-md-6">
-                                                <label class="control-label">Medicine Image:</label>
+                                                <label class="control-label">Flower Image Image:</label>
                                                  <div id="kv-avatar-errors-1" class="center-block" style="display:none;"></div>                         
                                                     <div class="kv-avatar center-block">             
                                                     <input type="file" class="form-control" id="MedicineImage" placeholder="Medicine Name" name="Medicine" class="file-loading" >
                                                 </div>
                                             </div>
                                             <div class="form-group col-md-6">
-                                                <label class="ontrol-label">Medicine Name</label>
-                                                  <input type="text" class="form-control" id="productName" placeholder="Medicine Name" name="productName" autocomplete="off" required="" />
+                                                <label class="ontrol-label">Flower Name</label>
+                                                  <input type="text" class="form-control" id="productName" placeholder="Flower Name" name="productName" autocomplete="off" required="" />
                                                 </div>
                                         <div class="form-group col-md-6">
                                                 <label class="control-label">Quantity</label>
@@ -56,14 +56,14 @@
                                                 <label class="control-label">Rate</label>
                                                    <input type="text" class="form-control" id="rate" placeholder="Rate" name="rate" autocomplete="off" required="" pattern="^[0-9]+$"/>
                                         </div>
-                                        <div class="form-group col-md-6">
+                                        <!-- <div class="form-group col-md-6">
                                                 <label class="control-label">MRP</label>
                                                    <input type="text" class="form-control" id="mrp" placeholder="MRP" name="mrp" autocomplete="off" required="" pattern="^[0-9]+$"/>
-                                        </div>
-                                        <div class="form-group col-md-6">
+                                        </div> -->
+                                        <!-- <div class="form-group col-md-6">
                                                 <label class="control-label">Batch No</label>
                                                    <input type="text" class="form-control" id="Batch No" placeholder="Batch No" name="bno" autocomplete="off" required="" pattern="^[Aa-Zz]+$"/>
-                                        </div>
+                                        </div> -->
                                         <div class="form-group col-md-6">
                                                 <label class="control-label">Expiry Date</label>
                                                    <input type="date" class="form-control" id="expdate" placeholder="Expiry Date" name="expdate" autocomplete="off" required="" pattern="^[0-9]+$"/>

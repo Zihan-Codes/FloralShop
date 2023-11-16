@@ -129,7 +129,7 @@ $n="INV-000";
                                      <table class="table" id="productTable">
           <thead>
             <tr>              
-              <th style="width:40%;">Medicine</th>
+              <th style="width:40%;">Flower</th>
               <th style="width:20%;">Rate</th>
               <th style="width:10%;">Avail.</th>
               <th style="width:15%;">Quantity</th>              

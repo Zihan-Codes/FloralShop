@@ -12,8 +12,8 @@ if($_POST) {
   $brandName 			= $_POST['editBrandName'];
   $categoryName 	= $_POST['editCategoryName'];
   $productStatus 	= $_POST['editProductStatus'];
-  $mrp 	= $_POST['mrp'];
-  $bno 	= $_POST['bno'];
+//   $mrp 	= $_POST['mrp'];
+//   $bno 	= $_POST['bno'];
   $expdate 	= $_POST['expdate'];
 
 				

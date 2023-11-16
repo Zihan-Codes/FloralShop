@@ -53,7 +53,7 @@ $countLowStock2 = $lowStockQuery2->num_rows;
                                 
                            
                                    <h2 class="color-white"><?php echo $countLowStock; ?></h2>
-                                   <a href="product.php"><p class="m-b-0">Total Medicine</p></a>
+                                   <a href="product.php"><p class="m-b-0">Total Flowers</p></a>
                                </div>
                            </div>
                        </div>
@@ -71,7 +71,7 @@ $countLowStock2 = $lowStockQuery2->num_rows;
                     
                             
                                     <h2 class="color-white"><?php echo $countLowStock1; ?></h2>
-                                     <a href="product.php"><p class="m-b-0">Total Manufacturer</p></a>
+                                     <a href="brand.php"><p class="m-b-0">Total Manufacturer</p></a>
                                 </div>
                             </div>
                         </div>
@@ -104,7 +104,7 @@ $countLowStock2 = $lowStockQuery2->num_rows;
                               <div class="media-body media-text-right">
                                   
                           <h2 class="color-white"><?php echo $countLowStock3; ?></h2>
-                                  <a href="Order.php"><p class="m-b-0">Total Expired Medicine</p></a>
+                                  <a href="Order.php"><p class="m-b-0">Total Expired Flowers</p></a>
                               </div>
                           </div>
                       </div>

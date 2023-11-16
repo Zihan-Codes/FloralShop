@@ -1,9 +1,9 @@
 <?php 
 // DB credentials.
-$localhost = "localhost";
+$localhost = "localhost:3307";
 $username = "root";
-$password = "Zihan123";
-$dbname = "mayurik_pharmacy";
+$password = "";
+$dbname = "sajivflowers";
 //$store_url = "http://localhost/phpinventory/";
 // db connection
 $connect = new mysqli($localhost, $username, $password, $dbname);
