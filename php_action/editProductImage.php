@@ -9,8 +9,17 @@ if($_POST) {
 
 $image = $_FILES['productImage']['name'];
 $target = "../assets/myimages/".basename($image);
+$checkimg = $_FILES['productImage']['tmp_name'];
 
-if (move_uploaded_file($_FILES['productImage']['tmp_name'], $target)) {
+        // Display file details
+        echo "File details:<br>";
+        echo "Name: " . $_FILES['productImage']['name'] . "<br>";
+        echo "Type: " . $_FILES['productImage']['type'] . "<br>";
+        echo "Size: " . $_FILES['productImage']['size'] . " bytes<br>";
+        echo "Temporary file: " . $_FILES['productImage']['tmp_name'] . "<br>";
+        echo "Target file: " . $target . "<br>";
+
+if (copy($_FILES['productImage']['tmp_name'], $target)) {
  // @unlink("uploadImage/Profile/".$_POST['old_image']);
 	//echo $_FILES['image']['tmp_name'];
 	//cho $target;exit;
@@ -18,8 +27,9 @@ if (move_uploaded_file($_FILES['productImage']['tmp_name'], $target)) {
       echo $msg;
     }
     else{
+		$error = error_get_last();
       $msg = "Failed to upload image";
-      echo $msg;exit;
+      echo $msg . $error['message'];exit;
     }		
 			
 

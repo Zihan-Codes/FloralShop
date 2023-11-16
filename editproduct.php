@@ -16,11 +16,11 @@ $sql="SELECT * from product where  product_id='".$_GET['id']."'";
             
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
-                    <h3 class="text-primary">Edit Medicine Management</h3> </div>
+                    <h3 class="text-primary">Edit Flower Management</h3> </div>
                 <div class="col-md-7 align-self-center">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                        <li class="breadcrumb-item active">Edit Medicine</li>
+                        <li class="breadcrumb-item active">Edit Flower</li>
                     </ol>
                 </div>
             </div>
@@ -50,7 +50,7 @@ $sql="SELECT * from product where  product_id='".$_GET['id']."'";
 <div class="changeUsenrameMessages"></div>
                                         <div class="form-group">
                                             <div class="row">
-                                                <label class="col-sm-3 control-label">Medicine Image:</label>
+                                                <label class="col-sm-3 control-label">Flower Image:</label>
                                                 <div class="col-sm-9">
                                                  
                                                    <img src="assets/myimages/<?php echo $result['product_image']?>" style="width:250px; height:250px;" >
